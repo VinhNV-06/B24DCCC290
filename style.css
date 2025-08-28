@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f8f9fa;
+}
+.cv-container {
+  max-width: 1300px;
+  margin: 80px auto;
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  color: #212529;
+}
+.left-col {
+  width: 35%;
+  padding: 30px 20px;
+  border-right: 2px solid #ddd;
+  text-align: center;
+}
+.right-col {
+  width: 65%;
+  padding: 30px;
+}
+.profile-pic {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin: 0 auto 20px;
+  display: block;
+}
+h3 {
+  font-weight: bold;
+  margin-top: 10px;
+}
+.section-title {
+  font-weight: bold;
+  margin: 20px 0 10px;
+  text-transform: uppercase;
+  font-size: 0.95rem;
+  border-bottom: 2px solid #eee;
+  padding-bottom: 4px;
+  text-align: left;
+  color: #007BFF;
+}
+.skill-bar {
+  height: 6px;
+  background: #e9ecef;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.skill-bar-fill {
+  height: 6px;
+  background: #17A2B8;
+  border-radius: 5px;
+}
+.left-col p,
+.right-col p {
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  text-align: left;
+}
